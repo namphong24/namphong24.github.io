@@ -76,7 +76,6 @@ int main()
     c = a*b;
     int **arr;
      scanf("%d %d",&a,&b);
-    // Tạo mảng 3 chiều arr[a]
     arr = (int **) malloc (a * sizeof (int *));
     for (int i = 0; i < a; i++)
     {
